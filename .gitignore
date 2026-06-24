@@ -1,0 +1,45 @@
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (may contain PII)
+*.csv
+*.xls
+*.xlsx
+*.db
+*.sqlite
+*.sqlite3
+
+# Model artifacts (may embed training data)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+saved_models/
+
+# IDE and OS files
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
